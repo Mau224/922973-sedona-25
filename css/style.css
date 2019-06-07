@@ -27,12 +27,12 @@ body{
 .background-photo{
   position: relative;
   width: 1200px;
-  text-align: left;
+  text-align: center;
   margin-bottom: 60px;
 }
 .photo{
   position: absolute;
-  right:800px;
+  right:720px;
   bottom:450px;
   text-align: center;
 }
@@ -40,27 +40,25 @@ body{
 .main-menu{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    justify-content: space-around;
+    width: 1200px;
     list-style: none;
     margin: 0;
     padding: 0;
     padding-top: 10px;
-    margin-left: 201px;
+    margin-left:340px;
   }
   .main-nav{
-  margin-left:150px;
-  width: 90px;
-  height: 12px;
-  font-family: PTSans;
-  font-size: 14px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.86;
-  letter-spacing: normal;
-  text-align: center;
-  color: #000000;
-  list-style: none;
+    width: 93px;
+    height: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.24;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
   text-decoration: none;
   }
   .logo{
@@ -108,7 +106,7 @@ body{
     position:absolute;
     width: 400px;
     height: 256px;
-    background:rgb(90, 90, 138);
+    background:#81b3d2;
     margin-left: 360px;
   }
   .info-of-locality{
@@ -119,10 +117,145 @@ body{
   line-height: 1.24;
   }
 
-.service-item{
+.services{
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  background-color: white;
+  }
+.project-text{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 1;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  }
+  .service-item{
+    margin-left: 100px;
+    width:300px;
+    font-weight: normal;
+  }
+  .services2{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    background-color: #eeeeee;
+    }
+.bait{
+  margin-top: 57px;
+  margin-bottom:52px;
+  text-align: center;
+}
+.main-text{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+.no-main-text{
+  width: 489px;
+  height: 13px;
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+}
 
 }
-.service{
-
+  .modal-pop-up{
+    display: none;
+  }
+  .social-button{
+    display: flex;
+    width: 46px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    background-color:#81b3d2;
+    margin-left: 6px;
+  }
+  .footer-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    list-style: none;
+    margin-right: 256px;
+    margin-left: 228px;
+  }
+  .footer-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: baseline;
+    margin-left:256px;
+    margin-right: 228px;
+    padding: 0;
+  }
+  .visually-hidden{
+    display: none;
+  }
+.text-container{
+    display: flex;
+    padding-left: 0;
+    height:65px;
+    margin-bottom: 75px;
+    justify-content: baseline;
+  }
+.main-footer,
+.footer-section{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: baseline;
+}
+.main-footer{
+  margin-top: 30px;
+}
+.footer-text{
+  width: 136px;
+  height: 16px;
+  font-family: PTSans;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+.discount{
+  width: 74px;
+  height: 11px;
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  margin-right: 8px;
+}
+.academy{
+  position: relative;
+  top: -7px
+}
+marker{
+  position: relative;
+  left:256px;
 }
