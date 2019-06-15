@@ -64,10 +64,8 @@ body{
   }
   .logo{
     position: absolute;
-    /* margin-right: -32px; */
-    /* text-align: center; */
     z-index: 1;
-    /* margin-right: 28px; */
+    top: 10px;
     left: 47%;
   }
   .info-of-sedona{
@@ -441,16 +439,16 @@ margin-left:200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  flex-direction: row;
+  flex-direction: column;
   margin-left:100px;
 
 }
 .product-item{
   display: flex;
-  flex-direction: column;
-  width: 850px;
-  height: 80px;
+  flex-direction: row;
+  width: 1200px;
   margin-bottom:37px;
+  flex-wrap: wrap;
 }
 .hotel-name{
   height: 16px;
@@ -467,14 +465,12 @@ margin-left:200px;
 }
 .hotel-info{
   display: flex;
-  align-items: center;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.5;
   letter-spacing: normal;
-  text-align: left;
   color: #333333;
 }
 .hotel-button{
@@ -488,6 +484,7 @@ margin-left:200px;
   display: block;
   padding: 4px 2px;
   width:110px;
+  height:22px;
   outline: none;
   color: #ffffff;
   text-align: center;
@@ -508,6 +505,7 @@ margin-left:200px;
   display: block;
   padding: 4px 2px;
   width:142px;
+  height: 22px;
   outline: none;
   color: #ffffff;
   text-align: center;
@@ -552,7 +550,6 @@ display: flex;
   flex-direction: row;
   justify-content: flex-end;
   flex-wrap: wrap;
-  margin-right: 70px;
   margin-bottom: 60px;
 }
 .star{
@@ -596,26 +593,8 @@ display: flex;
   margin-top: 7px;
   margin-right:40px;
 }
-input::-ms-clear {
-  display: none;
-}
-.form textarea{
-  width:760px;
-  height: 118px;
-  border-radius:5px;
-  border:2px solid #d7dcde;
-  margin-bottom: 66px;
-  margin-top:7px;
-}
-.form textarea:hover{
-  border: solid 2px #b4b9bb;
-}
-.form textarea:focus{
-  border: solid 2px #000000;
-}
-.form label{
-  font-weight: bold;
-}
+
+
 .modal-main-text{
   font-size: 21px;
   font-weight: bold;
@@ -625,4 +604,10 @@ input::-ms-clear {
   width: 568px;
   text-align: center;
   padding:35px 35px 35px 35px;
+}
+.line{
+  width: 1200px;
+  height: 2px;
+  color:#a34343;
+  margin-right: 200px;
 }
